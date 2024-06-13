@@ -1,0 +1,24 @@
+body {
+    background-image: url("../assets/img/fondo_veco.jpg");
+    background-size: 115%;
+}
+
+.login {
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 50px;
+    border: solid 2px;
+}
+
+.logo{
+    height: 30%;
+    width: 30%;
+}
+
+.input_login{
+    width: 80%;
+}
+
+.input_login:hover{
+    border-color: dodgerblue;
+}
