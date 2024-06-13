@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../css/navbar_estandar.css">
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <div class="container-fluid">
     <img src="../../assets/img/veco_logo_blanco.png" alt="Logo VECO">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -15,10 +15,10 @@
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-info-circle-fill"></i> Información complementaria</a>
         <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="../../config/permissions/alta_area.php"><i class="bi bi-building-add"></i> Alta de Áreas</a></li>
-        <li><a class="dropdown-item" href="#"><i class="bi bi-person-vcard"></i> Alta de Puestos</a></li>
-        <li><a class="dropdown-item" href="../../config/permissions/areas.php"><i class="bi bi-building-fill-gear"></i> Listado de Áreas</a></li>
-        <li><a class="dropdown-item" href="#"><i class="bi bi-diagram-3-fill"></i> Listado de de Puestos</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/add/alta_area.php"><i class="bi bi-building-add"></i> Alta de Áreas</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/add/alta_puestos.php"><i class="bi bi-person-vcard"></i> Alta de Puestos</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/view/areas.php"><i class="bi bi-building-fill-gear"></i> Listado de Áreas</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/view/puestos.php"><i class="bi bi-diagram-3-fill"></i> Listado de de Puestos</a></li>
         </ul>
         </li>
 
@@ -33,8 +33,8 @@
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-clipboard-check"></i> Aprobaciones</a>
         <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#"><i class="bi bi-person-check-fill"></i> Objetivos SMART Colaboradores</a></li>
-        <li><a class="dropdown-item" href="#"><i class="bi bi-person-check"></i> Objetivos año siguiente colaboradores</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/view/metas_colab.php"><i class="bi bi-person-check-fill"></i> Objetivos SMART Colaboradores</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/view/objetivos_nextyear.php"><i class="bi bi-person-check"></i> Objetivos año siguiente colaboradores</a></li>
         </ul>
         </li>
 

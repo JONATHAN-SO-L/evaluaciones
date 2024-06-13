@@ -5,7 +5,7 @@ include '../../assets/navs/administrador.php';
 
 <link rel="stylesheet" href="../../css/usuarios.css">
 
-<body><br>
+<body><br><br><br>
 
 <div class="container">
     <a href="usuarios.php" class="btn btn-warning"><i class="bi bi-arrow-left-circle-fill"></i>  <strong>Volver</strong></a><br><br>

@@ -1,20 +1,20 @@
 <?php 
-include '../../assets/navs/links.php';
-//include '../../assets/navs/administrador.php';
+include '../../../assets/navs/links2.php';
+include '../../../assets/navs/settings.php';
 ?>
 
-<link rel="stylesheet" href="../../css/usuarios.css">
+<link rel="stylesheet" href="../../../css/usuarios.css">
 
-<body><br>
+<body><br><br><br>
 
 <div class="container">
-    <a href="#" class="btn btn-warning"><i class="bi bi-arrow-left-circle-fill"></i>  <strong>Volver</strong></a><br><br>
+    <a href="../view/areas.php" class="btn btn-warning"><i class="bi bi-arrow-left-circle-fill"></i>  <strong>Volver</strong></a><br><br>
 
     <div class="container form">
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header2"><br>
-                    <img class="user_pic" src="../../assets/img/area.png"><h1 class="animated lightSpeedIn title-users">Nueva Área</h1>
+                    <img class="user_pic" src="../../../assets/img/area.png"><h1 class="animated lightSpeedIn title-users">Nueva Área</h1>
                 </div><br>
                 
             <div class="card">

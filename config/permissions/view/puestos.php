@@ -1,24 +1,24 @@
 <?php 
-include '../../assets/navs/links.php';
-include '../../assets/navs/administrador.php';
+include '../../../assets/navs/links2.php';
+include '../../../assets/navs/settings.php';
 ?>
 
-<link rel="stylesheet" href="../../css/usuarios.css">
+<link rel="stylesheet" href="../../../css/usuarios.css">
 
 <body><br><br><br>
 
 <div class="container">
-    <a href="alta_usuarios.php" class="btn btn-success"><i class="bi bi-plus-circle-fill"></i>  <strong>Nuevo Usuario</strong></a><br><br>
+    <a href="../add/alta_puestos.php" class="btn btn-success"><i class="bi bi-plus-circle-fill"></i>  <strong>Nuevo Puesto</strong></a><br><br>
 
     <div class="container form">
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header2"><br>
-                    <img class="user_pic" src="../../assets/img/usuarios.png"><h1 class="animated lightSpeedIn title-users">Usuarios</h1>
+                    <img class="user_pic" src="../../../assets/img/puesto.png"><h1 class="animated lightSpeedIn title-users">Puestos</h1>
                 </div><br>
                 
             <div class="card">
-            <div class="card bg-primary text-white"><center><h6><strong>Puedes realizar cualquier acción permitida con los usuarios enlistados</strong></h6></center></div>
+            <div class="card bg-primary text-white"><center><h6><strong>Puedes realizar cualquier acción permitida con los puestos enlistados</strong></h6></center></div>
             </div>
 
             <div class="container mt-3">
@@ -37,12 +37,8 @@ include '../../assets/navs/administrador.php';
                     <thead class="table-dark">
                     <tr>
                     <th>Acción</th>
-                    <th>Nombre Completo</th>
-                    <th>Nombre de Usuario</th>
-                    <th>Correo electrónico</th>
                     <th>Área</th>
                     <th>Puesto</th>
-                    <th>Tipo de Usuario</th>
                     </tr>
                     </thead>
 
@@ -55,12 +51,8 @@ include '../../assets/navs/administrador.php';
                         <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i> Borrar</button>
                         </div>
                     </td>
-                    <td>Ruben Arturo Ramírez Ocampo</td>
-                    <td>RUBENMARTI</td>
-                    <td>email@email.com</td>
-                    <td>Ventas</td>
-                    <td>Asesor Comercial</td>
-                    <td>Colaborador</td>
+                    <td>Desarrollo Organizacional</td>
+                    <td>Cultura Laboral</td>
                     </tr>
 
                     <tr>
@@ -71,28 +63,8 @@ include '../../assets/navs/administrador.php';
                         <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i> Borrar</button>
                         </div>
                     </td>
-                    <td>Ruben Arturo Ramírez Ocampo</td>
-                    <td>RUBENMARTI</td>
-                    <td>email@email.com</td>
-                    <td>Ventas</td>
-                    <td>Asesor Comercial</td>
-                    <td>Colaborador</td>
-                    </tr>
-
-                    <tr>
-                    <td>
-                        <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-primary"><i class="bi bi-eye-fill"></i> Ver</button>
-                        <button type="button" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square"></i> Editar</button>
-                        <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i> Borrar</button>
-                        </div>
-                    </td>
-                    <td>Ruben Arturo Ramírez Ocampo</td>
-                    <td>RUBENMARTI</td>
-                    <td>email@email.com</td>
-                    <td>Ventas</td>
-                    <td>Asesor Comercial</td>
-                    <td>Colaborador</td>
+                    <td>Capital Humano</td>
+                    <td>Jefatura de Capital Humano</td>
                     </tr>
                     </tbody>
                 </table>
