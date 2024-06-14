@@ -1,0 +1,4 @@
+.readonly {
+    background-color: rgb(228, 223, 223);
+    cursor: not-allowed	;
+}

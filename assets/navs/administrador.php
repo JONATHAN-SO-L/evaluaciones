@@ -41,7 +41,7 @@
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-journal-text"></i> Evaluaciones</a>
         <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-check"></i> Colaboradores</a></li>
+        <li><a class="dropdown-item" href="../../config/permissions/view/eval_colab.php"><i class="bi bi-person-fill-check"></i> Colaboradores</a></li>
         <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"></i> Jefes Inmediatos</a></li>
         </ul>
         </li>
